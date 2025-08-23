@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jarco Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" href="Jarco Coffee.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body class="light">
+
+  <!-- Navbar -->
+<header class="navbar">
+  <div class="logo">
+    <img src="Jarco Coffee.png" alt="Jarco Coffee Logo" class="header-logo">
+    <span>Jarco Coffee</span>
+  </div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#special">Special</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="nav-actions">
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-overlay"></div> <!-- optional dark overlay for text readability -->
+  <div class="hero-text" data-aos="fade-up">
+    <h1>Brewing Happiness, One Cup at a Time </h1>
+    <p>Discover the rich taste of handcrafted coffee at Jarco Coffee.</p>
+    <a href="#menu" class="btn btn-explore">Explore Menu</a>
+  </div>
+</section>
+
+  <!-- Today's Special Section -->
+  <section id="special" class="special" data-aos="fade-up">
+    <h2>Today's Special</h2>
+    <div class="special-card">
+      <img src="Cups for Jarco.png" alt="Special Coffee">
+      <div class="special-info">
+        <h3>Caramel Macchiato</h3>
+        <p>Sweet, creamy, and perfectly brewed with our signature caramel drizzle.</p>
+        <a href="#order" class="btn order-now">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="section-wrapper" data-aos="fade-up">
+      <h2>Our Coffee Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Espresso">
+          <div class="menu-info">
+            <h3>Espresso</h3>
+            <p>Strong & bold shot of coffee</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Latte">
+          <div class="menu-info">
+            <h3>Latte</h3>
+            <p>Creamy coffee with milk</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Cappuccino">
+          <div class="menu-info">
+            <h3>Cappuccino</h3>
+            <p>Foamy delight with espresso</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Mocha">
+          <div class="menu-info">
+            <h3>Mocha</h3>
+            <p>Chocolate flavored coffee</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="section-wrapper" data-aos="fade-up">
+      <div class="menu-grid">
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Espresso">
+          <div class="menu-info">
+            <h3>Caramel Macchiato</h3>
+            <p>Sweet, creamy, and caramel-drizzled</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Latte">
+          <div class="menu-info">
+            <h3>Americano</h3>
+            <p>Smooth espresso diluted with hot water</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Cappuccino">
+          <div class="menu-info">
+            <h3>Flat White</h3>
+            <p>Velvety microfoam over rich espresso</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+        <div class="menu-card" data-aos="zoom-in">
+          <img src="Cups for Jarco.png" alt="Mocha">
+          <div class="menu-info">
+            <h3>Ristretto</h3>
+            <p>Short, intense shot of espresso</p>
+            <a href="#order" class="btn order-now">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about" data-aos="fade-right">
+    <h2>About Jarco Coffee</h2>
+    <p>
+      At Jarco Coffee, we believe every cup tells a story. Our beans are carefully sourced
+      from the finest plantations, roasted to perfection, and crafted with passion to bring
+      you a rich and unforgettable coffee experience. Whether you crave a bold espresso,
+      a creamy latte, or a sweet mocha, Jarco Coffee is your destination for quality and flavor.
+    </p>
+    <p>
+      More than just coffee, we create moments of joy. Step into Jarco Coffee and enjoy
+      the aroma, the taste, and the warmth of a beverage that’s made with love.
+    </p>
+  </section>
+  <br>
+
+  <!-- Order Section -->
+  <section id="order" class="order">
+    <div class="section-wrapper" data-aos="fade-up">
+      <h2>Place Your Order</h2>
+      <form id="orderForm">
+        <!-- Person's Name -->
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <!-- Coffee Flavor -->
+        <select id="coffee" required>
+          <option value="" disabled selected>Select Coffee</option>
+          <option value="Espresso">Espresso</option>
+          <option value="Latte">Latte</option>
+          <option value="Cappuccino">Cappuccino</option>
+          <option value="Mocha">Mocha</option>
+          <option value="Caramel Macchiato">Caramel Macchiato</option>
+          <option value="Today's Special">Today's Special</option>
+        </select>
+
+        <!-- Coffee Size -->
+        <select id="size" required>
+          <option value="" disabled selected>Select Size</option>
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+        </select>
+
+        <!-- Sugar Quantity -->
+        <select id="sugar" required>
+          <option value="" disabled selected>Sugar Quantity</option>
+          <option value="No Sugar">No Sugar</option>
+          <option value="1 tsp">1 tsp</option>
+          <option value="2 tsp">2 tsp</option>
+          <option value="3 tsp">3 tsp</option>
+        </select>
+
+        <!-- Milk Preference -->
+        <select id="milk">
+          <option value="" disabled selected>Milk Preference</option>
+          <option value="Whole Milk">Whole Milk</option>
+          <option value="Skim Milk">Skim Milk</option>
+          <option value="Almond Milk">Almond Milk</option>
+          <option value="Oat Milk">Oat Milk</option>
+          <option value="No Milk">No Milk</option>
+        </select>
+
+        <!-- Confirm Order Button -->
+        <button type="submit" class="btn order-now">Confirm Order</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-wrapper" data-aos="fade-up">
+      <h2>Get in Touch</h2>
+      <p class="contact-subtitle">Have questions or want a custom order? Reach out to us!</p>
+
+      <!-- Contact Form -->
+      <form id="contactForm" data-aos="fade-left">
+        <input type="text" id="contactName" placeholder="Your Name" required />
+        <input type="email" id="contactEmail" placeholder="Your Email" required />
+        <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn order-now">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <!-- Company Intro -->
+      <div class="footer-about">
+        <h3>Jarco Coffee</h3>
+        <p>Your destination for premium coffee experiences, crafted with passion and love.</p>
+      </div>
+
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#special">Special</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Details -->
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>123 Coffee Street, Bean City</p>
+        <p>Email: info@jarcocoffee.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Business Hours -->
+      <div class="footer-hours">
+        <h4>Business Hours</h4>
+        <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
+        <p>Sunday: Closed</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jarco Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>
